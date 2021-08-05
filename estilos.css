@@ -1,0 +1,42 @@
+@media only screen and (min-width: 100px) and (max-width: 1023px) {
+body{
+    background-image: url("imagenes/cervezaartesanalfondo.jpg");
+    background-position: 50% 50%;
+    background-size: 1500px 800px;
+    background-attachment: fixed;
+}
+.fondoCerveza{
+height: 1900px;
+}
+}
+    @media only screen and (min-width: 1024px) and (max-width: 1367px) {
+    body{
+        background-image: url("imagenes/cervezaartesanalfondo.jpg");
+        background-position: 50% 50%;
+        background-size: 1500px 800px;
+        background-attachment: fixed;
+    }
+    .fondoCerveza{
+        background-image: url("imagenes/cervezaFondo.jpg");
+        width: 1000px; 
+        height: 600px;
+        margin-left: 170px;
+        }
+    }
+
+    @media only screen and (min-width: 1368px) and (max-width: 2560px) {
+        
+    body{
+        background-image:
+        url("imagenes/cervezaartesanalfondo.jpg");
+        background-position: 50% 50%;
+        background-size: 1600px 900px;
+        background-attachment: fixed;
+    }
+    .fondoCerveza{
+        background-image: url("imagenes/cervezaFondo.jpg");
+        width: 1000px; 
+        height: 600px;
+        margin-left: 170px;
+        }
+} 

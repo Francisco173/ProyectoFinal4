@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indudable</title>
+<!--ESTILOS-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="estilos.css"/>
+<link rel="stylesheet" href="css/estilosSAS.css"/>
+
+
+<!--FUENTES-->
+
+<!--Oswald-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<!--Lobster-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<!--Noto Sans-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+
+    <section class="titulos">
+      <article class="logoYEslogan">
+<h1 class="logo">Indudable</h1> <!--titulo principal-->
+<h1 class="eslogan">Sin duda, la mejor cerveza</h1> <!--Eslogan 1-->
+      </article>
+    
+      <article class="logo2YEslogan2">
+<img class="radio" src="Logo.png" width="200" height="150" alt="no hay nada mejor">
+<h1 class="eslogan2">¡Tan artesanal que<br> no lo podras creer!</h1> <!--Eslogan 2-->
+      </article>
+    </section>
+
+
+    <section>
+      <nav class="nav">
+       <ul class="ul"> <!--Aqui va la barra de menu-->
+        <li class="li"><a class="a" href="index.html"> Home </a></li>
+        <li class="li"><a class="a"> Conoce nuestros estilos! </a>
+            <ul class="subMenu">
+                <li class="li"><a class="a" href="ConoceNuestrosEstilos.html">TODO</a></li>
+                <li class="li"><a class="a" href="CervezasRubias.html">Cervezas rubias</a></li>
+                <li class="li"><a class="a" href="CervezasNegras.html">Cervezas negras</a></li>
+                <li class="li"><a class="a" href="CervezasRojas.html">Cervezas rojas</a></li>
+                <li class="li"><a class="a" href="CervezasEspeciales.html">Cervezas especiales</a></li>
+            </ul>
+       </li> 
+        <li class="li"><a class="a" href="Historia.html"> Historia </a></li>
+        <li class="li"><a class="a" href="Contacto.html"> Contacto </a></li>
+       <button class="verdeBorde" onclick="window.location.href='Tienda.html'">TIENDA</button> 
+      </ul>
+      </nav>
+      
+     <!--menu hamburguesa para movile--> 
+     <article>
+      <div class="dropdown">
+    
+        <button type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><button class="dropdown-" type="button" onclick="window.location.href='index.html'">Home</button></li>    
+          <li><button class="dropdown-" type="button" onclick="window.location.href='ConoceNuestrosEstilos.html'">Conoce nuestros estilos!</button>
+            <ul>
+              <li><button class="dropdown-" type="button" onclick="window.location.href='ConoceNuestrosEstilos.html'">TODO</button></li>
+              <li><button class="dropdown-" type="button" onclick="window.location.href='CervezasRubias.html'">Cervezas rubias</button></li>
+              <li><button class="dropdown-" type="button" onclick="window.location.href='CervezasNegras.html'">Cervezas negras</button></li>
+              <li><button class="dropdown-" type="button" onclick="window.location.href='CervezasRojas.html'">Cervezas rojas</button></li>
+              <li><button class="dropdown-" type="button" onclick="window.location.href='CervezasEspeciales.html'">Cervezas especiales</button></li>
+            </ul>  
+          </li>
+          <li><button class="dropdown-" type="button" onclick="window.location.href='Historia.html'">Historia</button></li>
+          <li><button class="dropdown-" type="button" onclick="window.location.href='Contacto.html'">Contacto</button></li>
+          <li><button class="dropdown-" type="button" onclick="window.location.href='Tienda.html'">TIENDA</button></li>
+        </ul>
+      </div>
+    </article>
+    </section> 
+      </header>
+
+
+
+<h3 class="secciones">Cervezas Rubias:</h3>
+       
+       
+  <!-- Section-->
+<section class="flexCardsTienda">
+  <article class="cardTienda">
+    <div>
+      <img class="foto" src="Tienda/CervezasRubias/Indudable.png" width="252" height="235" alt="Indudable">
+     </div>         
+     <div> 
+      <h3 class="nombreProducto">Indudable</h3>           
+          <button class="infoTienda" onclick="window.location.href='CervezasRubias.html'">Saber mas!</button> 
+          <br>
+          <div class="cantidad">
+          <button id="minus">-</button>
+          <input class="inputSize" id="input" type="text" value="1">
+          <button id="plus">+</button>
+          </div>
+          <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+     </div>
+</article>
+
+  <article class="cardTienda">
+        <div>
+          <img class="foto" src="Tienda/CervezasRubias/Blonde.jpg" width="252" height="235" alt="Blonde">
+         </div>         
+         <div> 
+          <h3 class="nombreProducto">Belgian Blonde Ale</h3>           
+              <button class="infoTienda" onclick="window.location.href='CervezasRubias.html'">Saber mas!</button>  
+              <br>
+              <div class="cantidad">
+              <button id="minus2">-</button>
+              <input class="inputSize" id="input2" type="text" value="1">
+              <button id="plus2">+</button>
+              </div>
+              <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+         </div>
+  </article>
+</section>
+
+
+<section class="flexCardsTienda">
+  <article class="cardTienda">
+    <div>
+      <img class="foto" src="Tienda/CervezasRubias/PaleAle.jpg" width="252" height="235" alt="PALE ALE">
+     </div>         
+     <div> 
+      <h3 class="nombreProducto">Pale Ale</h3>           
+          <button class="infoTienda" onclick="window.location.href='CervezasRubias.html'">Saber mas!</button> 
+          <br>
+          <div class="cantidad">
+          <button id="minus3">-</button>
+          <input class="inputSize" id="input3" type="text" value="1">
+          <button id="plus3">+</button>
+          </div>
+          <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+     </div>
+</article>
+
+<article class="cardTienda">
+  <div>
+    <img class="foto" src="Tienda/CervezasRubias/Kölsch.jpg" width="252" height="235" alt="Kölsch">
+   </div>         
+   <div> 
+    <h3 class="nombreProducto">Kölsch</h3>           
+        <button class="infoTienda" onclick="window.location.href='CervezasRubias.html'">Saber mas!</button> 
+        <br>
+        <div class="cantidad">
+        <button id="minus4">-</button>
+        <input class="inputSize" id="input4" type="text" value="1">
+        <button id="plus4">+</button>
+        </div>
+        <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+   </div>
+</article>
+</section>
+
+
+
+
+<br>
+<h3 class="secciones">Cervezas Negras:</h3>
+
+<section class="flexCardsTienda">
+  <article class="cardTienda">
+    <div>
+      <img class="foto" src="Tienda/CervezasNegras/Porter.jpg" width="252" height="235" alt="Porter">
+     </div>         
+     <div> 
+      <h3 class="nombreProducto">Porter</h3>           
+          <button class="infoTienda" onclick="window.location.href='CervezasNegras.html'">Saber mas!</button> 
+          <br>
+          <div class="cantidad">
+          <button id="minus5">-</button>
+          <input class="inputSize" id="input5" type="text" value="1">
+          <button id="plus5">+</button>
+          </div>
+          <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+     </div>
+</article>
+
+  <article class="cardTienda">
+        <div>
+          <img class="foto" src="Tienda/CervezasNegras/Stout.jpg" width="252" height="235" alt="Stout">
+         </div>         
+         <div> 
+          <h3 class="nombreProducto">Stout</h3>           
+              <button class="infoTienda" onclick="window.location.href='CervezasNegras.html'">Saber mas!</button>  
+              <br>
+              <div class="cantidad">
+              <button id="minus6">-</button>
+              <input class="inputSize" id="input6" type="text" value="1">
+              <button id="plus6">+</button>
+              </div>
+              <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+         </div>
+  </article>
+</section>
+
+
+<section class="flexCardsTienda">
+  <article class="cardTienda">
+    <div>
+      <img class="foto" src="Tienda/CervezasNegras/Bock.jpg" width="252" height="235" alt="Bock">
+     </div>         
+     <div> 
+      <h3 class="nombreProducto">Bock</h3>           
+          <button class="infoTienda" onclick="window.location.href='CervezasNegras.html'">Saber mas!</button> 
+          <br>
+          <div class="cantidad">
+          <button id="minus7">-</button>
+          <input class="inputSize" id="input7" type="text" value="1">
+          <button id="plus7">+</button>
+          </div>
+          <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+     </div>
+</article>
+
+<article class="cardTienda">
+  <div>
+    <img class="foto" src="Tienda/CervezasNegras/Schwarzbier.png" width="252" height="235" alt="Schwarzbier">
+   </div>         
+   <div> 
+    <h3 class="nombreProducto">Schwarzbier</h3>           
+        <button class="infoTienda" onclick="window.location.href='CervezasNegras.html'">Saber mas!</button> 
+        <br>
+        <div class="cantidad">
+        <button id="minus8">-</button>
+        <input class="inputSize" id="input8" type="text" value="1">
+        <button id="plus8">+</button>
+        </div>
+        <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+   </div>
+</article>
+</section>
+
+
+
+
+<br>
+<h3 class="secciones">Cervezas Rojas:</h3>
+
+<section class="flexCardsTienda">
+  <article class="cardTienda">
+    <div>
+      <img class="foto" src="Tienda/CervezasRojas/ScottichAle.jpg" width="252" height="235" alt="Scottich Ale">
+     </div>         
+     <div> 
+      <h3 class="nombreProducto">Scottich Ale</h3>           
+          <button class="infoTienda" onclick="window.location.href='CervezasRojas.html'">Saber mas!</button> 
+          <br>
+          <div class="cantidad">
+          <button id="minus9">-</button>
+          <input class="inputSize" id="input9" type="text" value="1">
+          <button id="plus9">+</button>
+          </div>
+          <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+     </div>
+</article>
+
+<article class="cardTienda">
+  <div>
+    <img class="foto" src="Tienda/CervezasRojas/ScotchAle.jpg" width="252" height="235" alt="Scotch Ale">
+   </div>         
+   <div> 
+    <h3 class="nombreProducto">Scotch Ale</h3>           
+        <button class="infoTienda" onclick="window.location.href='CervezasRojas.html'">Saber mas!</button> 
+        <br>
+        <div class="cantidad">
+        <button id="minus10">-</button>
+        <input class="inputSize" id="input10" type="text" value="1">
+        <button id="plus10">+</button>
+        </div>
+        <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+   </div>
+</article>
+</section>
+
+
+<section class="flexCardsTienda">
+  <article class="cardTienda">
+    <div>
+      <img class="foto" src="Tienda/CervezasRojas/RedAle.jpg" width="252" height="235" alt="Red Ale">
+     </div>         
+     <div> 
+      <h3 class="nombreProducto">Red Ale</h3>           
+          <button class="infoTienda" onclick="window.location.href='CervezasRojas.html'">Saber mas!</button> 
+          <br>
+          <div class="cantidad">
+          <button id="minus11">-</button>
+          <input class="inputSize" id="input11" type="text" value="1">
+          <button id="plus11">+</button>
+          </div>
+          <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+     </div>
+</article>
+
+<article class="cardTienda">
+  <div>
+    <img class="foto" src="Tienda/CervezasRojas/Viena.jpg" width="252" height="235" alt="Viena">
+   </div>         
+   <div> 
+    <h3 class="nombreProducto">Viena</h3>           
+        <button class="infoTienda" onclick="window.location.href='CervezasRojas.html'">Saber mas!</button> 
+        <br>
+        <div class="cantidad">
+        <button id="minus12">-</button>
+        <input class="inputSize" id="input12" type="text" value="1">
+        <button id="plus12">+</button>
+        </div>
+        <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+   </div>
+</article>
+</section>
+
+
+
+<br>
+<h3 class="secciones">Cervezas Especiales:</h3>
+
+<section class="flexCardsTienda">
+  <article class="cardTienda">
+    <div>
+      <img class="foto" src="Tienda/CervezasEspeciales/Honey.png" width="252" height="235" alt="Honey">
+     </div>         
+     <div> 
+      <h3 class="nombreProducto">Honey</h3>           
+          <button class="infoTienda" onclick="window.location.href='CervezasEspeciales.html'">Saber mas!</button> 
+          <br>
+          <div class="cantidad">
+          <button id="minus13">-</button>
+          <input class="inputSize" id="input13" type="text" value="1">
+          <button id="plus13">+</button>
+          </div>
+          <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+     </div>
+</article>
+
+<article class="cardTienda">
+  <div>
+    <img class="foto" src="Tienda/CervezasEspeciales/SaucoIPA.jpg" width="252" height="235" alt="Sauco IPA">
+   </div>         
+   <div> 
+    <h3 class="nombreProducto">Sauco IPA</h3>           
+        <button class="infoTienda" onclick="window.location.href='CervezasEspeciales.html'">Saber mas!</button> 
+        <br>
+        <div class="cantidad">
+        <button id="minus14">-</button>
+        <input class="inputSize" id="input14" type="text" value="1">
+        <button id="plus14">+</button>
+        </div>
+        <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+   </div>
+</article>
+</section>
+
+
+<section class="flexCardsTienda">
+  <article class="cardTienda">
+    <div>
+      <img class="foto" src="Tienda/CervezasEspeciales/CervezaConSidra.jpg" width="252" height="235" alt="Cerveza con sidra">
+     </div>         
+     <div> 
+      <h3 class="nombreProducto">Cerveza con sidra</h3>           
+          <button class="infoTienda" onclick="window.location.href='CervezasEspeciales.html'">Saber mas!</button> 
+          <br>
+          <div class="cantidad">
+          <button id="minus15">-</button>
+          <input class="inputSize" id="input15" type="text" value="1">
+          <button id="plus15">+</button>
+          </div>
+          <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+     </div>
+</article>
+
+<article class="cardTienda">
+  <div>
+    <img class="foto" src="Tienda/CervezasEspeciales/GrapeAle.jpg" width="252" height="235" alt="Grape ale">
+   </div>         
+   <div> 
+    <h3 class="nombreProducto">Grape ale</h3>           
+        <button class="infoTienda" onclick="window.location.href='CervezasEspeciales.html'">Saber mas!</button> 
+        <br>
+        <div class="cantidad">
+        <button id="minus16">-</button>
+        <input class="inputSize" id="input16" type="text" value="1">
+        <button id="plus16">+</button>
+        </div>
+        <button type="button" class="btn btn-success comprar">COMPRAR</button>              
+   </div>
+</article>
+</section>
+
+
+  <section>
+    <footer class="pieDePagina pieMargin"> <!--Aqui va el pie de pagina-->
+  
+      <h4 class="textosPieDePagina"> CopyRight: Gualeguaychu - Entre Rios - Argentina | Derechos Reservados | 2021 - Prohibida su Distribución. </h4>
+      <h4 class="textosPieDePagina"> Direccion: La cerveceria INDUDABLE esta hubicada en Entre rios, en la ruta 14 sobre el kilometro 54 la 
+        paz que se respira en estos campos proporcionan la inspiracion necesaria para fabricar una cerveza tal como se debe </h4>
+  
+        
+      <h4 class="linksPiePagina"><a class="colorLinksPiePagina" href="SobreLosDueños.html"> Sobre los dueños </a></h4>
+      <h4 class="linksPiePagina"><a class="colorLinksPiePagina" href="TrabajaConNosotros.html"> ¡Trabaja con nosotros! </a></h4>
+    </footer>
+               </section>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>      
+<script src="codigo.js"></script>        
+</body>
+</html>
